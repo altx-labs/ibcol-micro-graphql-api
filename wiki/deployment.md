@@ -77,7 +77,7 @@ The following environment variables are required:
 |----------|-------------|---------|
 | `ENV` | Current environment | `production` |
 | `NODE_ENV` | Node environment | `production` |
-| `MONGO_URL` | MongoDB connection string | `mongodb+srv://user:pass@cluster.mongodb.net/ibcol` |
+| `MONGO_URL` | MongoDB connection string | `mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>` |
 | `APP_URL` | Main application URL | `https://www.ibcol.org` |
 | `FILEPOND_API_URL` | File storage API URL | `https://www.ibcol.org` |
 | `FILEPOND_API_ENDPOINT` | File storage API endpoint | `/file/` |
@@ -185,4 +185,3 @@ If issues are encountered after deployment:
 3. Select "Promote to Production"
 
 This will roll back to the selected deployment.
-
